@@ -1,0 +1,14 @@
+GET https://questions.aloc.com.ng/api/v2/q?subject=english&type=utme
+Authorization: AccessToken ALOC-e8c3b74c5bf3ae4d69a4
+###
+
+GET https://questions.aloc.com.ng/api/v2/m/100?subject=english&year=2000&random=false&type=utme
+Authorization: "Bearer ALOC-e8c3b74c5bf3ae4d69a4"
+###
+
+GET http://localhost:5000/api/start-examination
+Authorization: Bearer 123
+###
+
+GET https://questions.aloc.com.ng/api/v2/q/20?subject=chemistry&year=2015
+Authorization: API Key ALOC-e8c3b74c5bf3ae4d69a4

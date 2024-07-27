@@ -1,0 +1,1382 @@
+{
+  "examInfo": {
+    "examType": "JAMB",
+    "examYear": "2003",
+    "subjects": {
+      "subject1": "english",
+      "subject2": "biology",
+      "subject3": "chemistry",
+      "subject4": "Physics"
+    },
+    "noOfQuestions": 160,
+    "accessToken": "12345",
+    "examDuration": 2
+  },
+  "questions": [
+    {
+      "subject": "english",
+      "status": 200,
+      "data": [
+        {
+          "id": 53,
+          "question": "The witness decided to <i>conceal</i> the evidence ",
+          "option": {
+            "a": "waive ",
+            "b": "divulge ",
+            "c": "hide",
+            "d": "destroy "
+          },
+          "section": "opposite in meaning to the word(s) or phrase in italics ",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 63,
+          "question": "The company is to <i>shed</i> three thousand staff this year ",
+          "option": {
+            "a": "Throw up ",
+            "b": "placate ",
+            "c": "lay off",
+            "d": "demote "
+          },
+          "section": "choose the option nearest in meaning to the word(s) or phrase in italics.",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 9,
+          "question": "The armed robbers went into the house and robbed the three",
+          "option": {
+            "a": "woman occupants",
+            "b": "women's occupants ",
+            "c": "woman's occupants",
+            "d": "   women occupants."
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 71,
+          "question": "The <i>cynics</i>  feared that the nation’s nascent democracy would fail",
+          "option": {
+            "a": "illusionists",
+            "b": "pessimists",
+            "c": "delinquents",
+            "d": "critics"
+          },
+          "section": "choose the option nearest in meaning to the word(s) or phrase in italics.",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 4,
+          "question": "If you saw the photograph of the man……………………you be able to identify him?",
+          "option": {
+            "a": "could",
+            "b": "would   ",
+            "c": "can ",
+            "d": "will "
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 37,
+          "question": "Tee<u>th</u>",
+          "option": {
+            "a": "taught",
+            "b": "tank",
+            "c": "though",
+            "d": "thought"
+          },
+          "section": " choose the option that has the same consonant sound as the one represented by the letter(s) underlined.",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 45,
+          "question": "The doctor examined the patient <i>painstakingly</i> ",
+          "option": {
+            "a": "Carefully ",
+            "b": "Perfunctorily ",
+            "c": "Professionally ",
+            "d": "Painfully "
+          },
+          "section": "opposite in meaning to the word(s) or phrase in italics ",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 36,
+          "question": " <u>Ch</u>alet",
+          "option": {
+            "a": "chairman",
+            "b": "College",
+            "c": "champagne",
+            "d": "Chemical"
+          },
+          "section": "choose the option that has the same consonant sound as the one represented by the letter(s) underlined.  ",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 66,
+          "question": "Before announcing his retirement, Ochima resolved to <i>settle an account with</i> the bank.",
+          "option": {
+            "a": "get  back at ",
+            "b": "pay back all he owes ",
+            "c": "close his account with ",
+            "d": "retire his loans from "
+          },
+          "section": "choose the option nearest in meaning to the word(s) or phrase in italics.",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 2,
+          "question": "The reason why he was not offered admission was …………… his results could not be found.",
+          "option": {
+            "a": "that   ",
+            "b": "when  ",
+            "c": "owing to ",
+            "d": "because "
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 61,
+          "question": "The <i>essence</i> of governance is to seek the good and well-being of the majority of the people ",
+          "option": {
+            "a": "characteristics ",
+            "b": "importance ",
+            "c": "Secret ",
+            "d": "Goal"
+          },
+          "section": "choose the option nearest in meaning to the word(s) or phrase in italics.",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 52,
+          "question": "A cool bath in a hot weather can be truly <i>invigorating</i> ",
+          "option": {
+            "a": "debilitating ",
+            "b": "devastating ",
+            "c": "disgusting ",
+            "d": "unpalatable"
+          },
+          "section": "opposite in meaning to the word(s) or phrase in italics ",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 18,
+          "question": "1 have the ……… of meeting the President.",
+          "option": {
+            "a": "privilege  ",
+            "b": "privelege ",
+            "c": "previlege ",
+            "d": "privilege "
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 38,
+          "question": "Co<u>n</u>crete ",
+          "option": {
+            "a": "anxious ",
+            "b": "concern ",
+            "c": " consider ",
+            "d": "attend "
+          },
+          "section": " choose the option that has the same consonant sound as the one represented by the letter(s) underlined.",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 28,
+          "question": "",
+          "option": {
+            "a": "there   ",
+            "b": "dear    ",
+            "c": "fair         ",
+            "d": "bear"
+          },
+          "section": "choose the option that has a different vowel sound from the others.",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 25,
+          "question": "It is often……. that inflation ……….  from too much money chasing very few goods.    ",
+          "option": {
+            "a": "said/results",
+            "b": "say/result      ",
+            "c": "said/result   ",
+            "d": "say/ resulted"
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 10,
+          "question": " It was a free-for-all and the students were blamed for taking the law",
+          "option": {
+            "a": "in their own hands ",
+            "b": "into their own hands ",
+            "c": "into their hands ",
+            "d": "in their hands."
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 46,
+          "question": "Toyin is married to an <i>impatient, self-centred man ",
+          "option": {
+            "a": "a tolerant ",
+            "b": "a tolerable",
+            "c": "a fretful ",
+            "d": "an edgy"
+          },
+          "section": "opposite in meaning to the word(s) or phrase in italics ",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 33,
+          "question": "The manager paid us in hard currency  ",
+          "option": {
+            "a": "We were paid in a strong and stable currency ",
+            "b": "We were paid in new notes ",
+            "c": "We were paid in new notes",
+            "d": "We were paid in foreign currency."
+          },
+          "section": "that best explains the information conveyed ",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        },
+        {
+          "id": 14,
+          "question": "  It is bad to take………… property without permission. ",
+          "option": {
+            "a": "someone else's ",
+            "b": "someone’s else",
+            "c": " someone's ",
+            "d": "someone's else's' "
+          },
+          "section": "most appropriate option",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003",
+          "questionNub": null,
+          "hasPassage": 0,
+          "category": "others"
+        }
+      ]
+    },
+    {
+      "subject": "biology",
+      "status": 200,
+      "data": [
+        {
+          "id": 8,
+          "question": "The stunted group of a leguminous plant suffering from nitrogen deficiency may be corrected by inoculating the soil with",
+          "option": {
+            "a": "denitrifying bacteria  ",
+            "b": "saprophytic bacteria",
+            "c": "Rhizobium   ",
+            "d": "nitrosomonas"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 12,
+          "question": "The part of the mammalian digestive  system where absorption of nutrients takes place is the",
+          "option": {
+            "a": "ileum  ",
+            "b": "colon  ",
+            "c": "esophagus  ",
+            "d": "duodenum"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 24,
+          "question": "One example of fossil fuel is",
+          "option": {
+            "a": "limestone  ",
+            "b": "coral  ",
+            "c": "coal  ",
+            "d": "firewood"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 31,
+          "question": "If a DNA strand has a base sequence TCA, its complementary strand must be",
+          "option": {
+            "a": "ATG  ",
+            "b": "TAG",
+            "c": "GAT  ",
+            "d": "AGT"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 37,
+          "question": "An insect with a mandibulate  mouth part will obtain its food by",
+          "option": {
+            "a": "biting and chewing   ",
+            "b": "chewing and sucking  ",
+            "c": "chewing  ",
+            "d": "Sucking"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 17,
+          "question": "The point marked I is referred to as  ",
+          "option": {
+            "a": "myelin sheath",
+            "b": "dendrites  ",
+            "c": "axon  ",
+            "d": "node of Ranvier"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 42,
+          "question": "The inactive state exhibited by an animal during hot dry seasons is termed  ",
+          "option": {
+            "a": "aestivation",
+            "b": "dormancy  ",
+            "c": "resting",
+            "d": "Hibernation"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 11,
+          "question": "Organisms I, II, III and IV have surface volume ratios  of 1:2, 1:3, 1:4, 1:5, respectively. The organism that is likely to have the most complex transport system is",
+          "option": {
+            "a": "IV",
+            "b": "III  ",
+            "c": "I  ",
+            "d": "II"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 40,
+          "question": "An example of cryptic colouration is the",
+          "option": {
+            "a": "mottled colours on moths that rest o lichens  ",
+            "b": "bright colour of an insect pollinated flower",
+            "c": "green colour of a plant  ",
+            "d": "bright marks on a poisonous tropical frog on variegated  leaves"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 15,
+          "question": "Metabolic production of urea is carried out in the",
+          "option": {
+            "a": "Urinary bladder and kidney",
+            "b": "liver   ",
+            "c": "pancreas  ",
+            "d": "kidney and malphigian tubule"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 2,
+          "question": "One distinctive feature in the life history  of liverworts is that they exhibit",
+          "option": {
+            "a": "alternation of generation  ",
+            "b": "vegetative reproduction  ",
+            "c": "sexual reproduction",
+            "d": "sexual reproduction"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 30,
+          "question": "The pioneer organism in ecological  succession are usually the",
+          "option": {
+            "a": "mosses  ",
+            "b": "lichens  ",
+            "c": "ferns",
+            "d": "Algae"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 33,
+          "question": "If the pair of alleles for baidness is given as Bb, a female carrier will be denoted by",
+          "option": {
+            "a": "XbY   ",
+            "b": "XBXB  ",
+            "c": "XBY",
+            "d": "XBXb"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 34,
+          "question": "An organ  that has been extensively used to test the chromosome theory of heredity is",
+          "option": {
+            "a": "Drosophila   melanogaster",
+            "b": "Muscat domestic  ",
+            "c": "Zea mays  ",
+            "d": "homo sapiens"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 22,
+          "question": "A density dependent factor that regulates the population size of organism is",
+          "option": {
+            "a": "disease",
+            "b": "sudden flood  ",
+            "c": "drought",
+            "d": "fire outbreak"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 21,
+          "question": "The most important hormone that induces the ripening of fruit is",
+          "option": {
+            "a": "ethylene  ",
+            "b": "indole acetic acid",
+            "c": "gibberellin  ",
+            "d": "cytokinin"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 39,
+          "question": "Spines and shells on animals are adaptations for",
+          "option": {
+            "a": "camouflage  ",
+            "b": "chemical defence",
+            "c": "physical defence  ",
+            "d": "mimicry"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 16,
+          "question": "The structure can be found in the",
+          "option": {
+            "a": "sympathetic and parasympathetic nervous systems  ",
+            "b": "peripheral and central nervous systems",
+            "c": "peripheral nervous system only  ",
+            "d": "central nervous system only"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 27,
+          "question": "Mycorrhiza is an association  between fungi and",
+          "option": {
+            "a": "protozoans",
+            "b": "roots of higher plants",
+            "c": "bacteria",
+            "d": "filamentous algae"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 26,
+          "question": "The correct sequence of biomes from northern to southern Nigeria is",
+          "option": {
+            "a": "gulnea savanna _ sudan savanna_ tropical rain forest_ sahel savanna_eetuarine  ",
+            "b": "estuarine_tripical rainforest_guinea savanna _ sahel_ savanna  ",
+            "c": "sahel savanna_ tropical_rain forest_ estuarine _guinea savanna",
+            "d": "sahel savanna_sudan savanna_guinea savanna _tropical rain forest_estuarine"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        }
+      ]
+    },
+    {
+      "subject": "chemistry",
+      "status": 200,
+      "data": [
+        {
+          "id": 80,
+          "question": "Neutral atoms of neon with atomic number 10 have the same number of electrons as",
+          "option": {
+            "a": "O2+",
+            "b": "Ca2+",
+            "c": "K+",
+            "d": "Mg2+"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 97,
+          "question": "Which of the following will change when a catalyst is added to a chemical reaction",
+          "option": {
+            "a": "The activation energy",
+            "b": "The potential energy of the reactants",
+            "c": "The heat of reaction",
+            "d": "The potential energy of the products"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 100,
+          "question": "In the electrolysis of a concentrated solution of sodium chloride using inert electrodes, which of the following ions are discharged at the cathode and anode respectively",
+          "option": {
+            "a": "Na+ and Cl-",
+            "b": "Na+ and OH-",
+            "c": "H+ and OH-",
+            "d": "H+ and Cl-"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 98,
+          "question": "If Y is an oxidizing agent that reacts with a reducing agent, Z, which of the following is correct",
+          "option": {
+            "a": "Y increases in oxidation number",
+            "b": "Y becomes reduced",
+            "c": "Z loses protons",
+            "d": "Z gains protons"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 85,
+          "question": "When cathode rays are detected onto the electrode of an electrometer, the instrument becomes",
+          "option": {
+            "a": "Negatively charged",
+            "b": "Positively charged",
+            "c": "Neutral",
+            "d": "Bipolar"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 119,
+          "question": "A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen. If the molar mass of the compound is 180, find the molecular formula  [H = 1, C = 12, O = 16]",
+          "option": {
+            "a": "CH2O",
+            "b": "C3H6O3",
+            "c": "C6H12O6",
+            "d": "C6H6O3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 87,
+          "question": "A consequence of global warming is",
+          "option": {
+            "a": "Air pollution",
+            "b": "Water pollution",
+            "c": "Increased humidity",
+            "d": "Flooding"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 75,
+          "question": "What volume of oxygen is produced from the decomposition of 2 moles of KClO3 at s.t.p   [Molar volume of a gas at s.t.p = 22.4 dm3]",
+          "option": {
+            "a": "22.4 dm3",
+            "b": "33.6 dm3",
+            "c": "44.8 dm3",
+            "d": "67.2 dm3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 111,
+          "question": "The modern process of manufacturing steel from iron is by",
+          "option": {
+            "a": "Treatment with acids",
+            "b": "Oxidation",
+            "c": "Blast reduction",
+            "d": "Treatment with alkalis"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 81,
+          "question": "The noble gases owe their inactivity to",
+          "option": {
+            "a": "Octet configuration",
+            "b": "Cyclic shape",
+            "c": "Hexagonal shape",
+            "d": "Obtuse configuration"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 89,
+          "question": "The structural component that makes detergent dissolve more quickly in water than soap is",
+          "option": {
+            "a": "–SO3 –Na+",
+            "b": "–COO-Na+",
+            "c": "–SO4- Na+",
+            "d": "–COO-K+"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 105,
+          "question": "Metals of the first transition series have special proper ties which are different from those of groups I and II elements because they have partially filled",
+          "option": {
+            "a": "s  orbitals",
+            "b": "p orbitals",
+            "c": "d orbitals",
+            "d": "f orbitals"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 90,
+          "question": "A liquid that will dissolve fast is",
+          "option": {
+            "a": "Hydrochloric acid",
+            "b": "Calcium hydroxide",
+            "c": "Kerosene",
+            "d": "Water"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 107,
+          "question": "Which of the following statements is true of sulphur (IV) oxide",
+          "option": {
+            "a": "It forms Tetraoxosulphate (VI) acid with water",
+            "b": "It is an odourless gas",
+            "c": "It is an acid anhydride",
+            "d": "It forms white precipitate with acidified barium chloride"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 99,
+          "question": "When at equilibrium, which of the reactions below will shift to the right if the pressure is increased and the temperature is kept constant",
+          "option": {
+            "a": " 2SO3(g)  ⇌  2SO2(g)  +  O2(g)",
+            "b": " 2CO2(g)  ⇌ 2CO(g)  +  O2(g)",
+            "c": " 2H2(g)  +  O2(g) ⇌  2H2O(g)",
+            "d": " 2NO(g)   ⇌ N2(g)  +  O2(g)"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 96,
+          "question": "The commonest feature of the reactions at the anode is that",
+          "option": {
+            "a": "Electrons are consumed",
+            "b": "Oxidation is involved",
+            "c": "Ions are reduced",
+            "d": "Electrode dissolves"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 101,
+          "question": " CO(g) + H2O(g) ⇌  CO2(g)  +  H2(g)\nFrom the reaction above, calculate the standard heat change if the standard enthalpies of formation of CO2 (g), H2O (g) and CO (g) in kJ mol-1 are -394, -242 and -110 respectively.\n",
+          "option": {
+            "a": "-262 kJ  mol-1",
+            "b": "-42kJ mol-1",
+            "c": "+42 kJ mol-1",
+            "d": "+262 kJ mol-1"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 108,
+          "question": "The salt that will form a precipitate soluble in excess ammonia solution is",
+          "option": {
+            "a": "Ca(NO3)2",
+            "b": "Cu(NO3)2",
+            "c": "Mg(NO3)2",
+            "d": "Al(NO3)3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 109,
+          "question": "The metal that liberates hydrogen from cold water in bubbles only is",
+          "option": {
+            "a": "Na",
+            "b": "K",
+            "c": "Ca",
+            "d": "Al"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        },
+        {
+          "id": 114,
+          "question": "How many isomers does pentane have",
+          "option": {
+            "a": "6",
+            "b": "5",
+            "c": "4",
+            "d": "3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "utme",
+          "examyear": "2003"
+        }
+      ]
+    },
+    {
+      "message": "We could not find what you asked for, but got you this",
+      "subject": "physics",
+      "status": 200,
+      "data": [
+        {
+          "id": 55,
+          "question": "A simple pendulum 0.6 long has a period of 1.55, what is the period of a similar pendulum 0.4 long in the same direction ",
+          "option": {
+            "a": "1.4 √1/3s ",
+            "b": "1.5 √1/3s ",
+            "c": "2.25s ",
+            "d": "None of the above"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2009"
+        },
+        {
+          "id": 28,
+          "question": "A 5kg block is released from rest on a smooth plane inclined at an angle of 30o to the horizontal. What is the acceleration down the plane?  [ g = 10ms-2]",
+          "option": {
+            "a": "5.0 ms-2 ",
+            "b": " 8.7 ms-2 ",
+            "c": "25.0 ms-2 ",
+            "d": "5.8 ms-2   "
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2007"
+        },
+        {
+          "id": 10,
+          "question": "  A convex lens of focal length 10.0cm is used to form a real image which is half the size of the object. How far from the object is the image? ",
+          "option": {
+            "a": "45cm ",
+            "b": "30cm ",
+            "c": "15cm ",
+            "d": "20cm"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2006"
+        },
+        {
+          "id": 69,
+          "question": "If 21g of alcohol of density 0.7gcm-3 is mixed with 10g of water, what would be the density of the resulting mixture? ",
+          "option": {
+            "a": "780gcm-3 ",
+            "b": "0.78gcm-3 ",
+            "c": "30gcm-3 ",
+            "d": "10gcm-3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2010"
+        },
+        {
+          "id": 19,
+          "question": "What is the dimension of pressure? ",
+          "option": {
+            "a": "ML-1T-2 ",
+            "b": "MLT-2 ",
+            "c": "ML2T-3 ",
+            "d": "ML-3"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2007"
+        },
+        {
+          "id": 127,
+          "question": "Two 2µF capacitors are connected in parallel. The combination is connected in series with a 6µF capacitor. What is the equivalent capacitor for the combination?",
+          "option": {
+            "a": "10.0µF  ",
+            "b": "8.0µF  ",
+            "c": "1.5µF  ",
+            "d": "2.4µF"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2012"
+        },
+        {
+          "id": 8,
+          "question": " A quantity of ice –10oc is heated until temperature of heating vessel is 90oc. Which of the following constant is NOT required to determine the quantity of heat supplied to the vessel? ",
+          "option": {
+            "a": "Specific latent heat of vaporization ",
+            "b": "specific heat capacity of ice ",
+            "c": "specific latent heat of fusion ",
+            "d": "specific heat capacity of water"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2006"
+        },
+        {
+          "id": 86,
+          "question": "Which of the following is not true about the properties of x-rays? ",
+          "option": {
+            "a": "they are not deflected by magnetic or electric field",
+            "b": "they ionized a gas making it a conductor ",
+            "c": "they are massive ",
+            "d": "they have high penetrating power "
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2010"
+        },
+        {
+          "id": 99,
+          "question": " The electric field between two parallel plates is E.  A particle of mass m and carrying charge q is released at a point half the distance between the plates. The velocity  of the particle t  seconds after its release is  ",
+          "option": {
+            "a": "qEt/m ",
+            "b": "qEt2  ",
+            "c": "mqt2/2E  ",
+            "d": "MQT/2E"
+          },
+          "section": "",
+          "image": "",
+          "answer": "",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2011"
+        },
+        {
+          "id": 51,
+          "question": "A devise that converts sound energy into electrical energy is ",
+          "option": {
+            "a": "the horn of a motor car ",
+            "b": "An AC generator ",
+            "c": "A microphone ",
+            "d": "Telephone earpiece "
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2009"
+        },
+        {
+          "id": 119,
+          "question": "Which of the following quantities is a scalar quantity?",
+          "option": {
+            "a": "Electric field ",
+            "b": "Coulomb force",
+            "c": "Electric potential ",
+            "d": "Acceleration due to gravity"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2012"
+        },
+        {
+          "id": 114,
+          "question": "When the length of the string of a simple pendulum is L its period is 0.5π second is 0.5π seconds. The period when the length is increased to 4L will be ",
+          "option": {
+            "a": "0.5π seconds",
+            "b": "π seconds ",
+            "c": "2π seconds ",
+            "d": "4π seconds"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2012"
+        },
+        {
+          "id": 33,
+          "question": "The period of a simple pendulum will increase by what factor of its extensible length increased by a factor of four ",
+          "option": {
+            "a": "2",
+            "b": "4",
+            "c": "2",
+            "d": "¼"
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2007"
+        },
+        {
+          "id": 43,
+          "question": "Which of these is not a fundamental S.I unit ",
+          "option": {
+            "a": "Ampere ",
+            "b": "Kelvin ",
+            "c": "Seconds ",
+            "d": "Radians"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2009"
+        },
+        {
+          "id": 29,
+          "question": "A rectangular metal block of volume 10-6m3 at 273K is heated to 573K, if the coefficient of linear expansion is 1.2 x 10-5K-1, the percentage change of its volume is ",
+          "option": {
+            "a": "1.50%",
+            "b": "1.10%",
+            "c": "0.10%",
+            "d": "0.40%"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2007"
+        },
+        {
+          "id": 128,
+          "question": "Five 100-Watt bulbs are put on for 45days during which the home-owner is on vacation. If 1kW-hour of electricity cost N7.50, how much does it cost the home-owner? ",
+          "option": {
+            "a": "N168.75  ",
+            "b": "N90.0  ",
+            "c": "N4050.00  ",
+            "d": "N810.00"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2012"
+        },
+        {
+          "id": 117,
+          "question": "A ship sinks to the bottom of a 250m deep lake. The atmospheric pressure over the lake is 1.03 x 105 Pa. Taking the density of water in the lake to be 1000 kg/m3, calculate the pressure exerted on the boat. [acceleration due to gravity = 10 m/s2] ",
+          "option": {
+            "a": "2.60 x 106Pa  ",
+            "b": "2.50 x 106Pa ",
+            "c": "2.60 x 105Pa ",
+            "d": "1.03 x 105Pa"
+          },
+          "section": "",
+          "image": "",
+          "answer": "a",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2012"
+        },
+        {
+          "id": 47,
+          "question": "If the force on a charge of 0.2 Coulomb in an electric field is 4N, then electric intensity of the field is ",
+          "option": {
+            "a": "0.8",
+            "b": "0.8N/C  ",
+            "c": "20.0 N/C ",
+            "d": "4.2 N/C "
+          },
+          "section": "",
+          "image": "",
+          "answer": "c",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2009"
+        },
+        {
+          "id": 73,
+          "question": "A boat is passing under a bridge. The deck of the boat is 15m below the bridge. A small package is to be dropped from the bridge onto the deck of the boat is 25m from just below the drop point. What speed is necessary to have the package land in the boat? (g= 9.8ms-2)",
+          "option": {
+            "a": "17m/s ",
+            "b": "14m/s ",
+            "c": "1.7m/s ",
+            "d": "4.9m/s"
+          },
+          "section": "",
+          "image": "",
+          "answer": "b",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2010"
+        },
+        {
+          "id": 26,
+          "question": "The energy contained in wire when it is extended by 0.02m by a force 500N is ",
+          "option": {
+            "a": "104J ",
+            "b": "103J ",
+            "c": "10J ",
+            "d": "5J"
+          },
+          "section": "",
+          "image": "",
+          "answer": "d",
+          "solution": "",
+          "examtype": "post-utme",
+          "examyear": "2007"
+        }
+      ]
+    }
+  ]
+}
