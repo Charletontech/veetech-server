@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 //enabling cors
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://veetechedu.netlify.app",
     credentials: true,
   })
 );
