@@ -6,7 +6,7 @@ const connectDB = mysql.createConnection({
   user: process.env.VT_USER,
   password: process.env.VT_PASSWORD,
   port: 3307,
-  database: "process.env.VT_DB",
+  database: process.env.VT_DB,
 });
 
 module.exports = connectDB;
