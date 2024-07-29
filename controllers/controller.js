@@ -47,7 +47,7 @@ const initDB = (req, res) => {
     if (err) throw err;
     console.log(result);
   });
-  req.json("database initialized and ready!");
+  res.json("database initialized and ready!");
 };
 
 const verifyAccessToken = async (req, res) => {
