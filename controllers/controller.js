@@ -86,6 +86,7 @@ function addTokenToDB(token) {
 }
 
 const getAllTokens = (req, res) => {
+  console.log("reached")
   var sql = ORM.select("*", "tokens");
   connectDB.query(sql, (err, result) => {
     if (err) throw new Error("error querying to get all tokens from DB");
