@@ -5,12 +5,10 @@ const apiKey = "ALOC-e8c3b74c5bf3ae4d69a4";
 const createExam = (res, receivedExamData) => {
   const examPaper = { examInfo: receivedExamData, questions: [] };
   const subjectsList = Object.values(receivedExamData.subjects);
-  console.log("Reached create exam", recievedExamData)
   
   getAllQuestions()
     .then(() => {
       res.status(200).json(examPaper);
-      console.log(examPaper);
     })
     .catch((error) => {
       console.error(
