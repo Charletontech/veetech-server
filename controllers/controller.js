@@ -51,6 +51,7 @@ const initDB = (req, res) => {
 };
 
 const verifyAccessToken = async (req, res) => {
+  console.log(req.body);
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
   let tokenIsVerified = await verifyTokenService(res, accessToken);
