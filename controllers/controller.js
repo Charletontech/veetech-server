@@ -54,10 +54,10 @@ const verifyAccessToken = async (req, res) => {
   console.log(req.body);
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
-  let tokenIsVerified = await verifyTokenService(res, accessToken);
-  if (tokenIsVerified) {
-    createExam(res, receivedExamData);
-  }
+  // let tokenIsVerified = await verifyTokenService(res, accessToken);
+  // if (tokenIsVerified) {
+  //   createExam(res, receivedExamData);
+  // }
 };
 
 const sendExamToken = async (req, res) => {
