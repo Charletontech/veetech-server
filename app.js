@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 //enabling cors
 app.use(
   cors({
-    origin: "https://veetechedu.netlify.app",
+    origin: "https://veetech.online",
     credentials: true,
   })
 );
