@@ -51,13 +51,12 @@ const initDB = (req, res) => {
 };
 
 const verifyAccessToken = async (req, res) => {
-  console.log(req.body);
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
-  // let tokenIsVerified = await verifyTokenService(res, accessToken);
-  // if (tokenIsVerified) {
-  //   createExam(res, receivedExamData);
-  // }
+  let tokenIsVerified = await verifyTokenService(res, accessToken);
+  if (tokenIsVerified) {
+    createExam(res, receivedExamData);
+  }
 };
 
 const sendExamToken = async (req, res) => {
@@ -87,12 +86,10 @@ function addTokenToDB(token) {
 }
 
 const getAllTokens = (req, res) => {
-  console.log("reached")
   var sql = ORM.select("*", "tokens");
   connectDB.query(sql, (err, result) => {
     if (err) throw new Error("error querying to get all tokens from DB");
     res.status(200).json(result);
-    console.log(result);
     return err;
   });
 };
