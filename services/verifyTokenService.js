@@ -14,9 +14,11 @@ const verifyTokenService = async (res, accessToken) => {
   };
 
   var result = await queryDB();
+  
   var tokenOk = result.find(
-    (each) => each.token == accessToken && each.status === "new"
+    (each) => each.token == accessToken && each.status == "new"
   );
+  console.log(tokenOk,result);
   if (tokenOk) {
     status = true;
     markTicketAsUsed(accessToken);
