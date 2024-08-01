@@ -26,6 +26,6 @@ router.get("/api/dashboard", (req, res) => {
 });
 
 router.post("/api/verify-exam-access", verifyAccessToken);
-router.get("/api/get-token", sendExamToken);
+router.post("/api/get-token", sendExamToken);
 router.get("/api/get-all-tokens", getAllTokens);
 module.exports = router;
