@@ -1,7 +1,7 @@
 const connectDB = require("../model/main.database");
 const ORM = require("../model/CharlieDB");
 
-const verifyTokenService = async (res, accessToken) => {
+const verifyTokenService = async (res, accessToken, examType) => {
   var status = false;
   const queryDB = () => {
     return new Promise((resolve, reject) => {
@@ -14,16 +14,18 @@ const verifyTokenService = async (res, accessToken) => {
   };
 
   var result = await queryDB();
-  
   var tokenOk = result.find(
-    (each) => each.token == accessToken && each.status == "new"
+    (each) =>
+      each.token == accessToken &&
+      each.status === "new" &&
+      each.examType === examType
   );
-  console.log(tokenOk,result);
+
   if (tokenOk) {
     status = true;
     markTicketAsUsed(accessToken);
   } else {
-    res.status(401).json("Token has been used");
+    res.status(402).json("Token has been used or is used for the wrong exam");
   }
   return status;
 };
