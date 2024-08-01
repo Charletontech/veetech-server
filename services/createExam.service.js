@@ -1,11 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-const apiKey = "ALOC-e8c3b74c5bf3ae4d69a4";
-
+require("dotenv").config();
 const createExam = (res, receivedExamData) => {
   const examPaper = { examInfo: receivedExamData, questions: [] };
   const subjectsList = Object.values(receivedExamData.subjects);
-  
+
   getAllQuestions()
     .then(() => {
       res.status(200).json(examPaper);
@@ -57,7 +54,7 @@ const createExam = (res, receivedExamData) => {
       {
         method: "GET",
         headers: {
-          AccessToken: `${apiKey}`,
+          AccessToken: `${process.env.APIKEY}`,
         },
       }
     );
