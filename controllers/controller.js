@@ -41,29 +41,36 @@ const loginHandler = (req, res) => {
 };
 
 const initDB = (req, res) => {
+  // var sql = "ALTER TABLE tokens ADD examType VARCHAR(20) NOT NULL AFTER status";
   var sql =
-    "CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20) )";
+    "CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20), examType VARCHAR(20) )";
   connectDB.query(sql, (err, result) => {
     if (err) throw err;
     console.log(result);
+    res.json("database initialized and ready!");
   });
-  res.json("database initialized and ready!");
 };
 
 const verifyAccessToken = async (req, res) => {
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
-  let tokenIsVerified = await verifyTokenService(res, accessToken);
+  const examType = req.body.examType;
+  let tokenIsVerified = await verifyTokenService(res, accessToken, examType);
   if (tokenIsVerified) {
     createExam(res, receivedExamData);
   }
 };
 
 const sendExamToken = async (req, res) => {
+  let { exam, numberOfTokens } = req.body;
+  var tokens = [];
   try {
-    const token = await generateUniqueToken();
-    await addTokenToDB(token);
-    res.json(token);
+    for (let i = 0; i < numberOfTokens; i++) {
+      const token = await generateUniqueToken();
+      tokens.push(token);
+      await addTokenToDB(token, exam);
+    }
+    res.json(tokens);
   } catch (err) {
     console.log(err);
     res.status(501).json({ message: `Error occurred: ${err}` });
@@ -71,11 +78,17 @@ const sendExamToken = async (req, res) => {
 };
 
 // Function to add the token to the database
-function addTokenToDB(token) {
+
+function addTokenToDB(token, exam) {
   return new Promise((resolve, reject) => {
     const date = `${new Date().getDate()}/${new Date().getMonth() + 1}`;
-    const values = [date, token, "new"];
-    const sql = ORM.insert("tokens", ["dateCreated", "token", "status"]);
+    const values = [date, token, "new", exam];
+    const sql = ORM.insert("tokens", [
+      "dateCreated",
+      "token",
+      "status",
+      "examType",
+    ]);
     connectDB.query(sql, values, (err, result) => {
       if (err) {
         return reject(new Error("There was an error adding token to DB"));
