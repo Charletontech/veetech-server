@@ -41,9 +41,9 @@ const loginHandler = (req, res) => {
 };
 
 const initDB = (req, res) => {
-  // var sql = "ALTER TABLE tokens ADD examType VARCHAR(20) NOT NULL AFTER status";
-  var sql =
-    "CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20), examType VARCHAR(20) )";
+  var sql = "ALTER TABLE tokens ADD examType VARCHAR(20) NOT NULL AFTER status";
+ // var sql =
+    //"CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20), examType VARCHAR(20) )";
   connectDB.query(sql, (err, result) => {
     if (err) throw err;
     console.log(result);
