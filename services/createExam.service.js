@@ -2,7 +2,7 @@ require("dotenv").config();
 const createExam = (res, receivedExamData) => {
   const examPaper = { examInfo: receivedExamData, questions: [] };
   const subjectsList = Object.values(receivedExamData.subjects);
-
+console.log("Reached create exam service: ", receivedExamData)
   getAllQuestions()
     .then(() => {
       res.status(200).json(examPaper);
