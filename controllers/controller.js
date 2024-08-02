@@ -52,6 +52,7 @@ const initDB = (req, res) => {
 };
 
 const verifyAccessToken = async (req, res) => {
+  console.log("reached verify access token route in controller")
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
   const examType = req.body.examType;
