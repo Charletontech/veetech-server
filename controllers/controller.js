@@ -74,7 +74,18 @@ const sendExamToken = async (req, res) => {
     res.json(tokens);
   } catch (err) {
     console.log(err);
-    res.status(501).json({ message: `Error occurred: ${err}` });
+    function generateTroubleCode() {
+      const prefix = "TC-";
+      const randomNum = Math.floor(Math.random() * 100000); // Generate a random 5-digit number
+      const troubleCode = `${prefix}-${randomNum}`;
+      return troubleCode;
+    }
+    console.log("TROUBLE CODE: ", generateTroubleCode());
+
+    res.status(500).json({
+      message: `Error occurred: ${err}`,
+      troubleCode: generateTroubleCode(),
+    });
   }
 };
 
@@ -82,7 +93,9 @@ const sendExamToken = async (req, res) => {
 
 function addTokenToDB(token, exam) {
   return new Promise((resolve, reject) => {
-    const date = `${new Date().getDate()}/${new Date().getMonth() + 1}`;
+    const now = new Date();
+    const date = `${
+      now.getHours() + 1}:${now.getMinutes()} <br> ${now.getDate()}/${now.getMonth() + 1}`;
     const values = [date, token, "new", exam];
     const sql = ORM.insert("tokens", [
       "dateCreated",
