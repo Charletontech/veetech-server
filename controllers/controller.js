@@ -94,8 +94,8 @@ const sendExamToken = async (req, res) => {
 function addTokenToDB(token, exam) {
   return new Promise((resolve, reject) => {
     const now = new Date();
-    const date = `${
-      now.getHours() + 1}:${now.getMinutes()} <br> ${now.getDate()}/${now.getMonth() + 1}`;
+    const date = `Time: ${
+      now.getHours() + 1}:${now.getMinutes()}, Date: ${now.getDate()}/${now.getMonth() + 1}`;
     const values = [date, token, "new", exam];
     const sql = ORM.insert("tokens", [
       "dateCreated",
