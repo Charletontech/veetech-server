@@ -41,9 +41,9 @@ const loginHandler = (req, res) => {
 };
 
 const initDB = (req, res) => {
-  var sql = "ALTER TABLE tokens ADD examType VARCHAR(20) NOT NULL AFTER status";
- // var sql =
-    //"CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20), examType VARCHAR(20) )";
+  // var sql = "ALTER TABLE tokens ADD examType VARCHAR(20) NOT NULL AFTER status";
+  var sql =
+    "CREATE TABLE IF NOT EXISTS tokens (id INT AUTO_INCREMENT PRIMARY KEY, dateCreated VARCHAR(15), token VARCHAR(255), status VARCHAR(20), examType VARCHAR(20) )";
   connectDB.query(sql, (err, result) => {
     if (err) throw err;
     console.log(result);
@@ -52,7 +52,6 @@ const initDB = (req, res) => {
 };
 
 const verifyAccessToken = async (req, res) => {
-  console.log("reached verify access token route in controller")
   const receivedExamData = req.body;
   const accessToken = req.body.accessToken;
   const examType = req.body.examType;
@@ -65,13 +64,14 @@ const verifyAccessToken = async (req, res) => {
 const sendExamToken = async (req, res) => {
   let { exam, numberOfTokens } = req.body;
   var tokens = [];
+
   try {
     for (let i = 0; i < numberOfTokens; i++) {
       const token = await generateUniqueToken();
       tokens.push(token);
       await addTokenToDB(token, exam);
     }
-    res.json(tokens);
+    res.status(200).json(tokens);
   } catch (err) {
     console.log(err);
     function generateTroubleCode() {
@@ -94,8 +94,10 @@ const sendExamToken = async (req, res) => {
 function addTokenToDB(token, exam) {
   return new Promise((resolve, reject) => {
     const now = new Date();
-    const date = `Time: ${
-      now.getHours() + 1}:${now.getMinutes()}, Date: ${now.getDate()}/${now.getMonth() + 1}`;
+    const date = `${now.getHours() + 1}:${now.getMinutes()}  ${now.getDate()}/${
+      now.getMonth() + 1
+    }`;
+
     const values = [date, token, "new", exam];
     const sql = ORM.insert("tokens", [
       "dateCreated",
